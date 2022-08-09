@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_light"
+    android:orientation="vertical"
+    android:theme="@style/me"
+    tools:context=".p3_a1"
+    tools:ignore="MissingDefaultResource">
+    <include layout="@layout/tool"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_weight="3"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pp" />
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="What is linear regession theorem ?"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="a linear approach for modeling the relationship between a scalar dependent variable y and an independent variable x. "
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="             y = b + wx  "
+                    android:textColor="#E8000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="b➞ is the bias or the value of output for zero input.\n\n where x, y, w ➞are vectors of real numbers.\n\nw➞is a vector of weight parameters “Line Slope”.  "
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/capturedd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="What is Least Squares Regression :"
+                    android:textColor="#E8000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text=" a statistical procedure to find the best fit for a set of data points by minimizing the sum of the offsets or residuals of points from the plotted curve.\n\nf(x) is in a linear form : f(x)=wx+b Minimize some measure of the difference between the approximating function "
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:elegantTextHeight="true"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="The functions will be :"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    app:srcCompat="@drawable/capturedr" />
+
+            </LinearLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="3">
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

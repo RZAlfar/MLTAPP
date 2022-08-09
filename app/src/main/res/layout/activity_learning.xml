@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_light"
+    android:orientation="vertical"
+    android:theme="@style/me"
+    tools:context=".info_1">
+
+    <include layout="@layout/tool"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="APPLICALTION OF USES AI IN EDUCATION:"
+                    android:textAlignment="textEnd"
+                    android:textColor="#DC000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textView8"
+                    app:srcCompat="@drawable/robots_classroom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/tt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Robots become teachers in a school in Bengaluru"
+                    android:textAlignment="textEnd"
+                    android:textColor="#DC000000"
+                    android:textSize="25dp"
+
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/i" />
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="A school in Bengaluru introduced humanoid robots to teach and interact with students just like regular teachers do, giving way to Discripe Technologies and Artificial Intelligence into classrooms."
+                    android:textColor="#AE000000"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="The robots impart lessons daily in five subjects to about 300 students in Classes 7-9 in four sections by turns. They also interact with them and respond to questions in the subjects,The AI enabled robots teach lessons in Biology, Chemistry, Geography, History, and Physics to Classes 7-9. As per the Collaborative Learning Model , The teacher collaborates with the robot and brings out the key concepts, relevance, and application of the lesson being taught  The  goal is to make human teachers more creative in the education sector. Robots will not replace their human counterparts but will work collaboratively with teachers as a tool or assistant to enhance the learning experience for the students in the classroom."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:layout_marginBottom="42dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="How a Pediatric Robot is Making Education Real for Nursing Students"
+                android:textAlignment="textEnd"
+                android:textColor="#DC000000"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/pediatric_hal_s2225_hospital_eyemovement_1_200x300" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="It's one thing to learn from an instructor or from written material for nursing students at Bunker Hill Community College in Boston, but it's far more valuable to interact with a live patient, especially in pediatrics, where the patient may not be able to articulate their symptoms as well as an adult."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="According to Andrew Camerato, the nursing program's Instructional Technology Coordinator. According to Camerato, Pediatric HAL has various advantages, the most important of which is that instructors have control. They may configure Pediatric HAL to recreate any scenario they choose, ensuring that all students have a standardized, uniform, and repeatable learning experience.  Pediatric HAL, which is programmed to act like a 5-year-old boy, is usually used in a six-hour lesson where six to eight nursing students can interact with the robot. Students monitor the patient's symptoms, take vital signs, attach HAL to diagnostic equipment, administer drugs, and assess how the patient responds to therapy."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="HAL is battery operated, so he is wireless, tetherless and can be used in any setting, according to Jim Archetto, vice president of corporate planning at Gaumard Scientific, which has a lineup of other robotic simulators for medical training. HAL is controlled with a tablet, so the instructor can easily switch things up, change scenarios or repeat a process with a mouse click."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tx9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="The main goal of incorporating artificial intelligence with our life is to reduce human mistakes, speed up decision-making, improve security, and provide digital assistance 24 hours a day, seven days a week."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

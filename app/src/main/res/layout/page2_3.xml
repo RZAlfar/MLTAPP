@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_light"
+    android:orientation="vertical"
+    android:theme="@style/me"
+    tools:context=".info_1">
+    <include layout="@layout/tool"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="3"
+                android:paddingBottom="10dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="262dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left"
+                    android:text="Types of Machine Learning"
+                    android:textAlignment="textEnd"
+                    android:textColor="#DC000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/i"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_width="78dp"
+                    android:layout_height="82dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/image140"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Supervised learning"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Based on the samples of known classes, obtain an optimal model with required performance through training and learning. Then, the model is used to map all inputs to outputs and perform simple judgment on outputs (classification). This model classifies unknown data. “image and speech recognition, forecasting, classification (predict a label), regression (predict a quantity)”"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Unsupervised learning"
+                    android:textColor="#E8000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="For unlabeled samples, the learning algorithm directly models the input datasets, such as clustering. We only need to put highly similar samples together, calculate the similarity of new samples, and classify them by similarity. “cluster, anomaly”"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Semi-supervised learning"
+                    android:textColor="#E8000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Enable the learner to automatically use a large amount of unlabeled data to assist learning of a small amount of labeled data"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Reinforcement learning"
+                    android:textColor="#E8000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Learning systems learn mappings from environments to actions to maximize the value of the reward signal (reinforcement signal) function. The difference between reinforcement learning and supervised learning is the teacher signal. The reinforcement signal provided by the environment in reinforcement learning is an assessment on the action (scalar signal) rather than telling the learning system how to perform correct actions. “ have rules, win a game with strategy”"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="3">
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MLTApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#9C448AFF</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+        <style name="Theme.MLTApp.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+
+        </style>
+<style name="me" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">#8A448AFF</item>
+    <item name="colorPrimaryDark">@color/white</item>
+    <item name="colorAccent">@color/black</item>
+    <item name="windowActionBar">true</item>
+    <item name="windowNoTitle">false</item>
+
+
+</style>
+
+</resources>

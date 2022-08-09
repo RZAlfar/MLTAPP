@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:theme="@style/me"
+    tools:context=".info_1">
+    <include layout="@layout/tool" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+<!--            <android.support.constraint.ConstraintLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/con_input">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/intro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="20dp"-->
+<!--                    android:background="@drawable/back9"-->
+<!--                    android:padding="12dp"-->
+<!--                    android:text="Insert The Names of Inputs and decide how many elemnt in each one by setting a name for it,\n EXAMPLE:  you need only two elements for Input one : \n set names in E1 and E2 below Input 1."-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                <HorizontalScrollView-->
+<!--                    android:id="@+id/input_lay"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fadeScrollbars="true"-->
+<!--                    android:scrollbars="none"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/intro"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck">-->
+
+<!--                    <android.support.constraint.ConstraintLayout-->
+
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <include-->
+<!--                            layout="@layout/input"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                    </android.support.constraint.ConstraintLayout>-->
+
+<!--                </HorizontalScrollView>-->
+<!--                </android.support.constraint.ConstraintLayout>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/submit"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/back5"-->
+<!--                android:text="SUBMIT"-->
+<!--                android:textSize="14dp" />-->
+
+
+           <android.support.constraint.ConstraintLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/con_radio">
+
+               <TextView
+                   android:id="@+id/intro2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="20dp"
+                   android:background="@drawable/back9"
+                   android:padding="12dp"
+                   android:text="Choose The Conditions and press add To Insert the data set. \n you can insert to 20 data sets.\n Press finish when you complete adding the set.  "
+                   android:textColor="@color/black"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+               <HorizontalScrollView
+                   android:id="@+id/radio_lay"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:fadeScrollbars="true"
+                   android:scrollbars="none"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/intro2"
+                   tools:ignore="SpeakableTextPresentCheck">
+
+                   <android.support.constraint.ConstraintLayout
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <include
+                           layout="@layout/radio"
+                           app:layout_constraintStart_toStartOf="parent"
+                           app:layout_constraintTop_toTopOf="parent" />
+
+                   </android.support.constraint.ConstraintLayout>
+               </HorizontalScrollView>
+
+
+           </android.support.constraint.ConstraintLayout>
+
+            <include layout="@layout/buttons"/>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_table">
+
+                <include
+                    layout="@layout/table"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grid_out"
+                >
+
+                <android.support.v7.widget.GridLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="All Yes count"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="Yes Probability"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="0"
+                        app:layout_row="2" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="All No Count"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="0"
+                        app:layout_row="1" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="No Probability"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="0"
+                        app:layout_row="3" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="P(choosen|yes)"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="0"
+                        app:layout_row="4" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:text="P(chooesen|no)"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="0"
+                        app:layout_row="5" />
+
+                    <TextView
+                        android:id="@+id/a1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="0" />
+
+                    <TextView
+                        android:id="@+id/a2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="1" />
+
+                    <TextView
+                        android:id="@+id/a3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="2" />
+
+                    <TextView
+                        android:id="@+id/a4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="3" />
+
+                    <TextView
+                        android:id="@+id/a5"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="4" />
+
+                    <TextView
+                        android:id="@+id/a6"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/back52"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        app:layout_column="1"
+                        app:layout_row="5" />
+                </android.support.v7.widget.GridLayout>
+            </android.support.constraint.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

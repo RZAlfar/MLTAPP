@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MLT App</string>
+    <string name="t1">TEXT2</string>
+    <string name="t2">Text2</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="page1_t">Page1</string>
+    <string name="page2_t">Page2</string>
+    <string name="page3_t">Page3</string>
+    <string name="page4_t">Page4</string>
+    <string name="nave1">ARTIFICIAL INTELLIGENCE </string>
+    <string name="nav2">INTRODUCTION TO ML</string>
+    <string name="nav3">SUPERVISED LEARNING</string>
+    <string name="nav4">ASK ME</string>
+    <string name="topic">xx</string>
+    <string name="text3">-Data\n-Algorithm\n-Computing power\n-Scenario</string>
+    <string name="t20">Machine learning:Adaptive mechanism that enable computers to learn from experience by: example and analogy.
+        \nMachine learning popular approach: artificial neural network ANN.
+   </string>
+</resources>

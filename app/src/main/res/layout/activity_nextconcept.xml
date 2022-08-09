@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_light"
+    android:orientation="vertical"
+    android:theme="@style/me"
+    tools:context=".info_1">
+
+    <include layout="@layout/tool"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                >
+
+
+
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/__jng0i9svvve7l7sj" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="ARTIFICIAL INTELLIGENCE\n(1950-1980)"
+                    android:textColor="#E8000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Atechnical science that studies and develops theories, methods, and applications for simulating and extending human intelligence."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="MACHINE LEARNING\n(1980-2010) "
+                    android:textColor="#E8000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Specializes in how computers simulate or implement human learning behavior to acquire new knowledge or skills, and reorganize existing knowledge structures to improve their performance continuously. It is a subset of artificial intelligence. Any system without learning ability can hardly be considered a real intelligent system."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="DEEP LEARNING\n(2010-NOW)"
+                    android:textColor="#E8000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Is developed based on the study of artificial neural networks (ANNs). The multilayer perceptron (MLP) with multiple hidden layers has a deep learning structure. Deep learning is a new field of machine learning. It aims to establish a neural network that simulates the human brain to analyze and interpret data, such as images, sounds, and texts"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="3">
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

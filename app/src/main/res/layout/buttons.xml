@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/back5"
+            android:text="ADD"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_column="1"
+            app:layout_gravity="center_horizontal"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/back5"
+            android:text="finish"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_column="2"
+            app:layout_gravity="center_horizontal"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/back5"
+            android:text="Calculate"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_column="3"
+            app:layout_gravity="center_horizontal"
+            app:layout_row="1" />
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>

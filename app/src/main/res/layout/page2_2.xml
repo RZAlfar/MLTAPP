@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_light"
+    android:orientation="vertical"
+    android:theme="@style/me"
+    tools:context=".info_1">
+
+    <include layout="@layout/tool"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="3"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="264dp"
+                    android:layout_height="88dp"
+                    android:gravity="left"
+                    android:text="Basic Terms and Concepts"
+                    android:textAlignment="textEnd"
+                    android:textColor="#DC000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/i"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.473" />
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_width="78dp"
+                    android:layout_height="82dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/img_10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Dataset"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Refers to a set of data used in machine learning tasks. Each piece of data is called a sample. The event or attribute that reflects the performance or nature of a sample in a certain aspect is called a feature.
+"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Training Set "
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Refers to a dataset used in the training process, where each sample is referred to as a training sample. The process of learning a model from data is called learning (training).
+"
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Test Set"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Test refers to the process of using the learnt model for prediction. The dataset used is called a test set, and each sample is called a test sample."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Generalization Capability"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="The goal of machine learning is that the learnt model should perform well on new samples, not just those on which the model has been trained. The ability to perform well on new samples is called generalization capability. "
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Error"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Refers to the difference between the sample result predicted by the learnt model and the actual sample result.
+                    \n  ➨Training error: error of the model on the training set.
+                    \n  ➨Generalization error: error on the new sample.Obviously, we prefer a model with a smaller generalization error."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Underfitting"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Occurs when the training error is too large."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="30dp"
+                android:paddingBottom="20dp"
+                android:layout_weight="3"
+                android:background="@drawable/back9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="3"
+                    android:gravity="left"
+                    android:paddingStart="20dp"
+                    android:text="Capacity Of A Model"
+                    android:textColor="#E8000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="5sp"
+                    android:text="Refers to the ability to fit a wide variety of functions. Machine learning algorithms will generally perform best when their capacity is appropriate for the true complexity of the task they need to perform and the amount of training data they are provided with. Models with an insufficient capacity are unable to solve complex tasks. Models with a high capacity can solve complex tasks, but when their capacity is higher than that is needed to solve the present task, they may overﬁt."
+                    android:textColor="#AE000000"
+                    android:textSize="16sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:fadeScrollbars="true"
+                    android:scrollbars="none"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/xx1"
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/tdx"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:src="@drawable/img_30" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/xx2"
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toEndOf="@id/xx1"
+                            app:layout_constraintTop_toTopOf="@id/xx1">
+
+                            <ImageView
+                                android:id="@+id/textView16x"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:src="@drawable/img_31" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/xx3"
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toEndOf="@id/xx2"
+                            app:layout_constraintTop_toTopOf="@id/xx2">
+
+                            <ImageView
+                                android:id="@+id/tx17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:src="@drawable/img_32" />
+
+
+                        </LinearLayout>
+
+                    </android.support.constraint.ConstraintLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="3">
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:visible="true">
+
+        <item
+            android:id="@+id/nav_page1"
+            android:icon="@drawable/icon11"
+            android:iconTint="#DC8989"
+            android:title="@string/nave1"
+            />
+        <item
+            android:id="@+id/nav_page2"
+            android:icon="@drawable/icon11"
+            android:title="@string/nav2" />
+        <item
+            android:id="@+id/nav_page3"
+            android:icon="@drawable/icon11"
+            android:title="@string/nav3" />
+        <item
+            android:id="@+id/nav_page4"
+            android:icon="@drawable/icon11"
+            android:title="@string/nav4" />
+    </group>
+
+
+</menu>

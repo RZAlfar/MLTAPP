@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:theme="@style/me"
+    tools:context=".info_1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <EditText
+                    android:id="@+id/x"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="Input 1"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#546E7A"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/x1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E1"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <EditText
+                    android:id="@+id/y1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:autofillHints=""
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E1"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/z1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E1"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/w1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E1"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/x2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E2"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    app:layout_column="0"
+                    app:layout_row="2"
+                    tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+                <EditText
+                    android:id="@+id/y2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E2"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/z2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E2"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/w2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E2"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/x3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E3"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    app:layout_column="0"
+                    app:layout_row="3"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <EditText
+                    android:id="@+id/y3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E3"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/z3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E3"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/w3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E3"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/x4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E4"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    app:layout_column="0"
+                    app:layout_row="4"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <EditText
+                    android:id="@+id/y4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E4"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/z4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E4"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/w4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="E4"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/y"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="Input 2"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#546E7A"
+                    android:textSize="12dp"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/z"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="Input 3"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#546E7A"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+                <EditText
+                    android:id="@+id/w"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back52"
+                    android:ems="12"
+                    android:gravity="left"
+                    android:hint="Input 4"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#546E7A"
+                    android:textSize="12dp"
+                    tools:ignore="DuplicateIds" />
+
+            </android.support.v7.widget.GridLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
